@@ -1,0 +1,569 @@
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:07:23] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:07:25] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:07:25] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:07:26] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:07:26] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:07:36] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:07:36] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:07:36] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:07:47] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-07-47.html".
+[INFO] - [29-10-2025 22:07:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:19:29] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:19:30] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:19:32] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:19:32] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:19:33] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:19:33] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:19:42] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:19:42] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:19:42] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:19:56] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-19-56.html".
+[INFO] - [29-10-2025 22:19:57] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:28:10] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:28:13] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:28:13] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:28:14] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:28:14] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:28:22] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:28:23] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:28:23] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:28:36] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-28-36.html".
+[INFO] - [29-10-2025 22:28:38] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:31:05] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:31:06] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:31:06] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:31:06] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:31:08] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:31:08] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:31:09] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:31:09] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:31:17] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:31:17] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:31:17] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:31:32] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-31-32.html".
+[INFO] - [29-10-2025 22:31:33] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:31:43] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:31:46] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:31:46] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:31:46] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:31:46] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:31:55] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:31:55] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:31:55] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:32:08] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-32-08.html".
+[INFO] - [29-10-2025 22:32:09] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:32:53] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:32:54] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:32:56] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:32:56] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:32:57] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:32:57] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:33:21] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:33:22] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:33:22] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:33:54] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-33-54.html".
+[INFO] - [29-10-2025 22:33:55] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:34:40] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:34:48] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:34:50] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:34:50] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:34:51] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:34:51] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:34:59] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:34:59] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:34:59] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:35:11] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-35-11.html".
+[INFO] - [29-10-2025 22:35:12] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:38:23] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:38:26] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:38:26] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:38:27] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:38:27] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:38:35] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:38:35] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:38:35] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:38:48] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-38-48.html".
+[INFO] - [29-10-2025 22:38:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:39:47] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:39:48] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:39:48] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:39:48] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:39:50] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:39:50] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:39:51] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:39:51] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:40:00] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:40:00] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:40:00] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:40:13] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-40-13.html".
+[INFO] - [29-10-2025 22:40:14] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:41:41] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:41:44] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:41:44] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:41:45] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [29-10-2025 22:41:45] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [29-10-2025 22:41:53] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:43:24] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:43:32] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:43:51] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:43:51] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:43:52] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:43:52] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:44:18] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:44:19] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:44:19] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:44:34] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-44-34.html".
+[INFO] - [29-10-2025 22:44:35] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:45:32] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:45:34] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:45:34] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:45:35] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:45:35] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:45:42] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:46:23] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:47:48] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:47:49] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:47:49] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:47:49] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:47:51] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:47:51] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:47:52] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:47:52] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:47:59] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:48:00] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:48:00] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:48:15] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-48-15.html".
+[INFO] - [29-10-2025 22:48:17] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:48:36] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:48:39] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:48:39] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:48:39] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:48:39] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:48:49] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:48:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:48:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:49:05] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-49-05.html".
+[INFO] - [29-10-2025 22:49:07] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [29-10-2025 22:54:18] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:54:20] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[DEBUG] - [29-10-2025 22:54:21] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [29-10-2025 22:54:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [29-10-2025 22:54:22] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [29-10-2025 22:54:23] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:54:23] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:54:24] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [29-10-2025 22:54:24] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [29-10-2025 22:54:24] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [29-10-2025 22:54:25] [main] [coreLibraries.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [29-10-2025 22:54:25] [main] [coreLibraries.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [29-10-2025 22:54:30] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:54:30] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:54:31] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:54:33] [main] [coreLibraries.utils.actions.BrowserActions] - Navigated to URL:  https://demo.nopcommerce.com/
+[INFO] - [29-10-2025 22:54:33] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest started
+[INFO] - [29-10-2025 22:54:33] [main] [coreLibraries.listeners.TestNGListeners] - Test Case homePageTest passed
+[INFO] - [29-10-2025 22:54:46] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-54-46.html".
+[INFO] - [29-10-2025 22:54:47] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [29-10-2025 22:54:48] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-29_10-54-48.html".
+[INFO] - [29-10-2025 22:54:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:15:20] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:15:21] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:15:23] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:15:23] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[DEBUG] - [30-10-2025 02:16:47] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:16:47] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:16:48] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:16:49] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:16:49] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:16:49] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:16:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:16:57] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod failed
+[INFO] - [30-10-2025 02:17:04] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-17-04.html".
+[INFO] - [30-10-2025 02:17:05] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:17:55] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:17:56] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:17:57] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:17:57] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:17:57] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:17:58] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:18:01] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod failed
+[INFO] - [30-10-2025 02:18:12] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-18-12.html".
+[INFO] - [30-10-2025 02:18:12] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:19:43] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:19:44] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:19:46] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:19:46] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:19:46] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:19:46] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:19:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:19:55] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-19-55.html".
+[INFO] - [30-10-2025 02:19:56] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:20:35] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:20:36] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:20:37] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:20:37] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:20:37] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:20:38] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:20:41] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod failed
+[INFO] - [30-10-2025 02:20:47] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-20-47.html".
+[INFO] - [30-10-2025 02:20:47] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:26:04] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:26:04] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:26:06] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:26:06] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:26:06] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:26:06] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:26:09] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod failed
+[INFO] - [30-10-2025 02:26:16] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-26-16.html".
+[INFO] - [30-10-2025 02:26:16] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:27:06] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:27:07] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:27:08] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:27:08] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:27:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:27:09] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:27:12] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:27:19] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-27-19.html".
+[INFO] - [30-10-2025 02:27:19] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:28:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:28:08] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:28:16] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:28:16] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:28:16] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:28:16] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:28:30] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:28:48] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-28-48.html".
+[INFO] - [30-10-2025 02:28:48] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:29:49] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:29:50] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:29:51] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:29:51] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:29:52] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:29:52] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:29:56] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:30:02] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-30-02.html".
+[INFO] - [30-10-2025 02:30:03] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:31:04] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:31:05] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:31:07] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:31:07] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:31:07] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:31:07] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:31:10] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:31:17] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-31-17.html".
+[INFO] - [30-10-2025 02:31:18] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:32:48] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:32:49] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:32:50] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:32:50] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:32:50] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:32:50] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:32:54] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:33:00] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-33-00.html".
+[INFO] - [30-10-2025 02:33:01] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:49:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:49:45] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:49:46] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:49:47] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:49:47] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:49:47] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:49:47] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:49:50] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:49:57] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-49-57.html".
+[INFO] - [30-10-2025 02:49:58] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 02:50:16] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 02:50:16] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 02:50:17] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 02:50:18] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 02:50:18] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 02:50:18] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 02:50:18] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 02:50:22] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod passed
+[INFO] - [30-10-2025 02:50:28] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_02-50-28.html".
+[INFO] - [30-10-2025 02:50:29] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [30-10-2025 04:03:11] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution started
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.FileUtils] - File deleted: C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2test-output\Logs\logs.log
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.listeners.TestNGListeners] - Directories created
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.listeners.TestNGListeners] - Properties loaded
+[INFO] - [30-10-2025 04:03:12] [main] [coreLibraries.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [30-10-2025 04:03:27] [main] [coreLibraries.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-10-2025 04:03:27] [main] [coreLibraries.listeners.TestNGListeners] - Allure environment set
+[INFO] - [30-10-2025 04:03:27] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Al-Huda\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-10-2025 04:03:28] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod started
+[INFO] - [30-10-2025 04:04:09] [main] [coreLibraries.listeners.TestNGListeners] - Test Case tryMethod failed
+[INFO] - [30-10-2025 04:04:16] [main] [coreLibraries.FileUtils] - Target File Path: "C:\Users\Al-Huda\Desktop\Automation\Projects_tests\ITI_GraduationProjectV2\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-30_04-04-16.html".
+[INFO] - [30-10-2025 04:04:16] [main] [coreLibraries.listeners.TestNGListeners] - Test Execution Finished
