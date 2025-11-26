@@ -1,6 +1,7 @@
 package coreLibraries.utils.report;
 
 import coreLibraries.media.ScreenRecordManager;
+import coreLibraries.utils.FileUtils;
 import coreLibraries.utils.logs.LogsManager;
 import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
@@ -30,7 +31,7 @@ public class AllureAttachmentManager {
     public static void attachLogs() {
         try {
             LogManager.shutdown();
-            File logFile = new File(LogsManager.LOGS_PATH + "logs.log");
+            File logFile = FileUtils.getLatestFileFromDir(LogsManager.LOGS_PATH);
             ((LoggerContext) LogManager.getContext(false)).reconfigure();
             if (logFile.exists()) {
                 Allure.attachment("logs.log", Files.readString(logFile.toPath()));

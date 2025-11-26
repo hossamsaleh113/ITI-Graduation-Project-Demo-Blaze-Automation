@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","41626","tryMethod","General Framework Suite","2025-10-30","broken","2025-10-30","demoblaz.tests.Try","ITI_GraduationProjectV2","demoblaz.tests.Try","tryMethod"
+"","10801","test","General Framework Suite","2025-11-18","passed","2025-11-18","com.demoblaz.tests.Try","SoftwareTesting_ITIGraduationProject","com.demoblaz.tests.Try","test"

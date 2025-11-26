@@ -2,7 +2,12 @@ package coreLibraries.utils.actions;
 
 import coreLibraries.utils.WaitManager;
 import coreLibraries.utils.logs.LogsManager;
+import io.qameta.allure.Step;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import java.time.Duration;
 
 public class AlertActions {
     private final WebDriver driver;
@@ -17,34 +22,19 @@ public class AlertActions {
      * Accepts the alert
      */
     public void acceptAlert() {
-        waitManager.fluentWait().until(d ->
-        {
-            try {
-                d.switchTo().alert().accept();
-                LogsManager.info("Accepts the alert");
-                return true;
-            } catch (Exception e) {
-                LogsManager.error("Failed to accept alert:", e.getMessage());
-                return false;
-            }
-        });
+        waitManager.waitForAlert().until(ExpectedConditions.alertIsPresent());
+        LogsManager.info("Accepts the alert");
+        driver.switchTo().alert().accept();
     }
 
     /**
      * Dismisses the alert
      */
     public void dismissAlert() {
-        waitManager.fluentWait().until(d ->
-        {
-            try {
-                d.switchTo().alert().dismiss();
-                LogsManager.info("Dismisses the alert");
-                return true;
-            } catch (Exception e) {
-                LogsManager.error("Failed to dismiss alert:", e.getMessage());
-                return false;
-            }
-        });
+        waitManager.waitForAlert().until(ExpectedConditions.alertIsPresent());
+        LogsManager.info("Dismiss the alert");
+        driver.switchTo().alert().dismiss();
+
     }
 
     /**
@@ -53,22 +43,18 @@ public class AlertActions {
      * @return the text of the alert
      */
     public String getAlertText() {
-        return waitManager.fluentWait().until(d ->
-        {
-            try {
-                String text = d.switchTo().alert().getText();
-                if (!text.isEmpty()) {
-                    LogsManager.info("Alert text: " + text);
-                    return text;
-                } else {
-                    LogsManager.info("Alert text=Null");
-                    return null;
-                }
-            } catch (Exception e) {
-                LogsManager.error("Failed to get alert text:", e.getMessage());
-                return null;
-            }
-        });
+        waitManager.waitForAlert().until(ExpectedConditions.alertIsPresent());
+        Alert alert = driver.switchTo().alert();
+        LogsManager.info("Getting the alert text");
+        String text = alert.getText();
+        alert.accept();
+        if (text != null) {
+            LogsManager.info("Alert text: " + text);
+            return text;
+        } else {
+            LogsManager.warn("Alert text is null");
+            return null;
+        }
     }
 
     /**
@@ -76,17 +62,11 @@ public class AlertActions {
      *
      * @param text the text to set in the alert
      */
-    public void setAlertText(String text) {
-        waitManager.fluentWait().until(d ->
-        {
-            try {
-                d.switchTo().alert().sendKeys(text);
-                LogsManager.info("Sets alert text: " + text);
-                return true;
-            } catch (Exception e) {
-                LogsManager.error("Failed to set alert text:", e.getMessage());
-                return false;
-            }
-        });
+    public void sendTextToAlert(String text) {
+        waitManager.waitForAlert().until(ExpectedConditions.alertIsPresent());
+        Alert alert = driver.switchTo().alert();
+        LogsManager.info("Send text " + text + " to alert");
+        alert.sendKeys(text);
+        alert.accept();
     }
 }

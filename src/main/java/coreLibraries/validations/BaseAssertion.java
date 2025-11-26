@@ -1,10 +1,11 @@
 package coreLibraries.validations;
 
-import coreLibraries.FileUtils;
+import coreLibraries.utils.FileUtils;
 import coreLibraries.utils.WaitManager;
 import coreLibraries.utils.actions.ElementActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public abstract class BaseAssertion {
     protected WebDriver driver;
@@ -63,5 +64,18 @@ public abstract class BaseAssertion {
         assertTrue(FileUtils.isFileExists(fileName), message);
     }
 
+    //verify that element does not exist
+    public void assertElementNotVisible(By locator , String massage) {
+        boolean flag = waitManager.fluentWait().until(driver1 ->
+        {
+            try {
+                WebElement element = driver1.findElement(locator);
+                return !element.isDisplayed();
+            } catch (Exception e) {
+                return true;
+            }
+        });
+        assertTrue(flag, massage);
+    }
 
 }

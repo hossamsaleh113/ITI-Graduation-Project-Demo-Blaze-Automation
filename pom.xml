@@ -9,12 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <allure.version>2.30.0</allure.version>
-        <aspectj.version>1.9.24</aspectj.version>
-
+        <aspectj.version>1.9.22</aspectj.version>
     </properties>
 
 
@@ -59,7 +58,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.37.0</version>
+            <version>4.38.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -172,7 +171,16 @@
             <artifactId>jsoup</artifactId>
             <version>1.21.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>tools.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
     </dependencies>
+
+    <!-- https://mvnrepository.com/artifact/tools.jackson.core/jackson-databind -->
 
 
 </project>

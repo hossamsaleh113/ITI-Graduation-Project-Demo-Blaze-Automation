@@ -6,9 +6,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.io.File;
+import java.time.Duration;
+import java.util.List;
 
 public class ElementActions {
     private final WebDriver driver;
@@ -33,7 +37,52 @@ public class ElementActions {
         });
     }
 
-    /// Click on Element
+    //find elements
+    public List<WebElement> findElements(By locator) {
+        return waitManager.fluentWait().until(driver_wait -> {
+            try {
+                List<WebElement> elements = driver_wait.findElements(locator);
+                LogsManager.info("Find elements : " + locator);
+                return elements;
+            } catch (Exception e) {
+                LogsManager.info("Failed to find elements : " + locator);
+                return null;
+            }
+        });
+    }
+
+    // is element displayed
+    public boolean isElementDisplayed(By locator) {
+        return waitManager.fluentWait().until(driver_wait -> {
+            try {
+                WebElement element = findElement(locator);
+                boolean isDisplayed = element.isDisplayed();
+                LogsManager.info("Element " + locator + " is displayed: " + isDisplayed);
+                return isDisplayed;
+            } catch (Exception e) {
+                LogsManager.info("Failed to determine if element " + locator + " is displayed.");
+                return false;
+            }
+        });
+    }
+
+
+    public boolean isElementEnabled(By locator) {
+        return waitManager.fluentWait().until(driver_wait -> {
+            try {
+                WebElement element = findElement(locator);
+                boolean isDisplayed = element.isDisplayed();
+                boolean isEnabled = element.isEnabled();
+                LogsManager.info("Element " + locator + " is enabled: " + isEnabled);
+                return (isEnabled && isDisplayed);
+            } catch (Exception e) {
+                LogsManager.info("Failed to determine if element " + locator + " is enabled.");
+                return false;
+            }
+        });
+    }
+
+    // Click on Element
     public void click(By locator) {
         waitManager.fluentWait().until(driver_wait -> {
             try {
@@ -49,7 +98,7 @@ public class ElementActions {
         });
     }
 
-    /// Type on Element
+    // Type on Element
     public void type(By locator, String text) {
         waitManager.fluentWait().until(driver_wait -> {
             try {
@@ -66,9 +115,8 @@ public class ElementActions {
         });
     }
 
-    /// clear text from input field
 
-    /// Get Text from Element
+    // Get Text from Element
     public String getText(By locator) {
         return waitManager.fluentWait().until(driver_wait -> {
             try {
@@ -92,7 +140,7 @@ public class ElementActions {
         });
     }
 
-    /// Double-Click on Element
+    // Double-Click on Element
     public void doubleClick(By locator) {
         waitManager.fluentWait().until(driver_wait -> {
             try {
@@ -394,5 +442,14 @@ public class ElementActions {
                 return false;
             }
         });
+    }
+
+    //wait for page to be ready
+    public FluentWait<WebDriver> waitFor(){
+        LogsManager.info("Waiting for page to be ready");
+          return new FluentWait<>(driver)
+                 .withTimeout(Duration.ofSeconds(Long.parseLong("30")))
+                 .pollingEvery(Duration.ofMillis(Long.parseLong("500")))
+                  .ignoreAll(waitManager.getExceptions());
     }
 }

@@ -1,6 +1,7 @@
 package coreLibraries.listeners;
 
-import coreLibraries.FileUtils;
+import coreLibraries.drivers.GUIDriver;
+import coreLibraries.utils.FileUtils;
 import coreLibraries.drivers.UITest;
 import coreLibraries.drivers.WebDriverProvider;
 import coreLibraries.media.ScreenRecordManager;
@@ -11,8 +12,7 @@ import coreLibraries.utils.report.AllureAttachmentManager;
 import coreLibraries.utils.report.AllureConstants;
 import coreLibraries.utils.report.AllureEnvironmentManager;
 import coreLibraries.utils.report.AllureReportGenerator;
-import coreLibraries.validations.Validation;
-import org.openqa.selenium.WebDriver;
+import coreLibraries.validations.SoftValidation;
 import org.testng.*;
 
 import java.io.File;
@@ -53,30 +53,26 @@ public class TestNGListeners implements ISuiteListener, IExecutionListener, IInv
     }
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
-        WebDriver driver = null;
+        GUIDriver driver = null;
         if (method.isTestMethod()) {
-            if (testResult.getInstance().getClass().isAnnotationPresent(UITest.class)) {
-                ScreenRecordManager.stopRecording(testResult.getName());
-                if (testResult.getInstance() instanceof WebDriverProvider provider)
-                    driver = provider.getWebDriver(); //initialize driver from WebDriverProvider
-                switch (testResult.getStatus()) {
-                    case ITestResult.SUCCESS ->
-                            ScreenshotsManager.takeFullPageScreenshot(driver, "passed-" + testResult.getName());
-                    case ITestResult.FAILURE ->
-                            ScreenshotsManager.takeFullPageScreenshot(driver, "failed-" + testResult.getName());
-                    case ITestResult.SKIP ->
-                            ScreenshotsManager.takeFullPageScreenshot(driver, "skipped-" + testResult.getName());
-                }
-                AllureAttachmentManager.attachRecords(testResult.getName());
-                AllureAttachmentManager.attachScreenshot("Full Page - " + testResult.getName(), ScreenshotsManager.SCREENSHOTS_PATH);
+            if (testResult.getInstance() instanceof WebDriverProvider provider) {
+                driver = provider.getWebDriver(); //initialize driver from WebDriverProvider
             }
 
-            Validation.assertAll(testResult);
-
-            AllureAttachmentManager.attachLogs();
-
+            switch (testResult.getStatus()) {
+                case ITestResult.SUCCESS ->
+                        ScreenshotsManager.takeFullPageScreenshot(driver, "passed-" + testResult.getName());
+                case ITestResult.FAILURE ->
+                        ScreenshotsManager.takeFullPageScreenshot(driver, "failed-" + testResult.getName());
+                case ITestResult.SKIP ->
+                        ScreenshotsManager.takeFullPageScreenshot(driver, "skipped-" + testResult.getName());
+            }
+            AllureAttachmentManager.attachRecords(testResult.getName());
+            AllureAttachmentManager.attachScreenshot("Full Page - " + testResult.getName(), FileUtils.getLatestFileFromDir(ScreenshotsManager.SCREENSHOTS_PATH).getAbsolutePath());
 
         }
+        SoftValidation.assertAll(testResult);
+        AllureAttachmentManager.attachLogs();
     }
 
 

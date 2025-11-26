@@ -1,5 +1,6 @@
 package coreLibraries.media;
 
+import coreLibraries.drivers.GUIDriver;
 import coreLibraries.utils.TimeManager;
 import coreLibraries.utils.logs.LogsManager;
 import coreLibraries.utils.report.AllureAttachmentManager;
@@ -10,23 +11,25 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import java.io.File;
+import java.time.Duration;
 
 public class ScreenshotsManager {
 
     public static final String SCREENSHOTS_PATH = "test-output/screenshots/";
 
     //take full page screenshot
-    public static void takeFullPageScreenshot(WebDriver driver, String screenshotName) {
+    public static void takeFullPageScreenshot(GUIDriver driver, String screenshotName) {
         try {
             // Capture screenshot using TakesScreenshot
-            File screenshotSrc = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//            driver.implicitWait(2);                      replace with elementAction method
+            File screenshotSrc = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
 
             // Save screenshot to a file if needed
-            File screenshotFile = new File(SCREENSHOTS_PATH + screenshotName + "-" + TimeManager.getTimestamp() + ".png");
+            File screenshotFile = new File(SCREENSHOTS_PATH +  screenshotName + "_" + TimeManager.getTimestamp() + ".png");
             FileUtils.copyFile(screenshotSrc, screenshotFile);
 
-            //// Attach the screenshot to Allure
-            AllureAttachmentManager.attachScreenshot(screenshotName, screenshotFile.getAbsolutePath());
+            // Attach the screenshot to Allure
+//            AllureAttachmentManager.attachScreenshot(screenshotName, screenshotFile.getAbsolutePath());
 
             LogsManager.info("Capturing Screenshot Succeeded");
         } catch (Exception e) {
@@ -45,8 +48,6 @@ public class ScreenshotsManager {
             // Save screenshot to a file if needed
             File screenshotFile = new File(SCREENSHOTS_PATH + ariaName + "-" + TimeManager.getTimestamp() + ".png");
             FileUtils.copyFile(screenshotSrc, screenshotFile);
-            //// Attach the screenshot to Allure
-            AllureAttachmentManager.attachScreenshot(ariaName, screenshotFile.getAbsolutePath());
             LogsManager.info("Capturing Screenshot Succeeded");
         } catch (Exception e) {
             LogsManager.error("Failed to Capture Element Screenshot", e.getMessage());

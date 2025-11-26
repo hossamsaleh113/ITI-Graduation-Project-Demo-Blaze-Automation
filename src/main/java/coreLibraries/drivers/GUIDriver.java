@@ -6,10 +6,12 @@ import coreLibraries.utils.actions.ElementActions;
 import coreLibraries.utils.actions.FrameActions;
 import coreLibraries.utils.dataReader.PropertyReader;
 import coreLibraries.utils.logs.LogsManager;
-import coreLibraries.validations.Validation;
+import coreLibraries.validations.SoftValidation;
 import coreLibraries.validations.Verification;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
+
+import java.time.Duration;
 
 public class GUIDriver {
     private final String browser = PropertyReader.getProperty("browserType");
@@ -41,8 +43,8 @@ public class GUIDriver {
     }
 
     //soft assertions
-    public Validation validation() {
-        return new Validation(get());
+    public SoftValidation validation() {
+        return new SoftValidation(get());
     }
 
     // hard assertions
@@ -56,5 +58,9 @@ public class GUIDriver {
 
     public void quitDriver() {
         driverThreadLocal.get().quit();
+    }
+
+    public void implicitWait(int seconds) {
+        get().manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
     }
 }
