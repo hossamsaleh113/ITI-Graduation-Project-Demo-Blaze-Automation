@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FullTest" verbose="1">
+    <test name="GuestE2e">
+        <classes>
+            <class name="com.demoblaz.tests.e2e.GuestE2e"/>
+        </classes>
+    </test>
+
+    <test name="UserE2e">
+        <classes>
+            <class name="com.demoblaz.tests.e2e.UserE2e"/>
+        </classes>
+    </test>
+
+    <test name="AdminE2e">
+        <packages>
+            <package name="com.demoblaz.tests.negative"/>
+        </packages>
+    </test>
+</suite>

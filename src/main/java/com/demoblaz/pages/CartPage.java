@@ -129,7 +129,7 @@ public class CartPage {
     public CartPage validateTotalPrice() {
         String expectedTotal = getSumOfItemPrices();
         String actualTotal = getTotalPrice();
-        driver.validation().assertEquals(actualTotal, expectedTotal, "Incorrect total price.");
+        driver.softValidation().assertEquals(actualTotal, expectedTotal, "Incorrect total price.");
         return this;
     }
 
@@ -137,7 +137,7 @@ public class CartPage {
     @Step("Validate item count in the cart is '{expectedCount}'")
     public CartPage validateItemCount(String expectedCount) {
         String actualCount = String.valueOf(getItemCount());
-        driver.validation().assertEquals(actualCount, expectedCount, "Incorrect item count.");
+        driver.softValidation().assertEquals(actualCount, expectedCount, "Incorrect item count.");
         return this;
     }
 
@@ -145,7 +145,7 @@ public class CartPage {
     @Step("Validate item: {itemName} is deleted from the cart")
     public CartPage validateItemIsDeleted(String itemName) {
         By itemLocator = By.xpath("//td[text()='" + itemName + "']");
-        driver.validation().assertElementNotVisible(itemLocator, "Item '" + itemName + "' was not deleted from the cart.");
+        driver.softValidation().assertElementNotVisible(itemLocator, "Item '" + itemName + "' was not deleted from the cart.");
         return this;
     }
 

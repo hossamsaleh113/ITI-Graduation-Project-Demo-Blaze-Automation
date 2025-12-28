@@ -43,7 +43,7 @@ public class GUIDriver {
     }
 
     //soft assertions
-    public SoftValidation validation() {
+    public SoftValidation softValidation() {
         return new SoftValidation(get());
     }
 

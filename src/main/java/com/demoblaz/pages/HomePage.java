@@ -140,7 +140,7 @@ public class HomePage {
     //validate first item in the list
     @Step("Validate first item in the product list is {ItemName}")
     public HomePage validateFirstItemInList(String ItemName) {
-        driver.validation().assertEquals(getFirstItemName(), ItemName, "Incorrect first item in the product list.");
+        driver.softValidation().assertEquals(getFirstItemName(), ItemName, "Incorrect first item in the product list.");
         return this;
     }
 
@@ -148,7 +148,7 @@ public class HomePage {
     @Step("Validate product description for item: {itemName} contains '{expectedDescription}'")
     public HomePage validateProductDescriptionByItemName(String itemName, String expectedDescription) {
         String actualDescription = getProductDescriptionByItemName(itemName);
-        driver.validation().assertEquals(actualDescription , expectedDescription, "Product description does not match.");
+        driver.softValidation().assertEquals(actualDescription , expectedDescription, "Product description does not match.");
         return this;
     }
 }

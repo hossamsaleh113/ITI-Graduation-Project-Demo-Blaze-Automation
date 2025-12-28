@@ -47,7 +47,6 @@ public class AlertActions {
         Alert alert = driver.switchTo().alert();
         LogsManager.info("Getting the alert text");
         String text = alert.getText();
-        alert.accept();
         if (text != null) {
             LogsManager.info("Alert text: " + text);
             return text;

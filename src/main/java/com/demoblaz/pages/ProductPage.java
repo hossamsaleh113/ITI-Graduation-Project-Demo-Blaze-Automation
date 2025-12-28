@@ -89,6 +89,7 @@ public class ProductPage {
         return navBar;
     }
 
+
 /*
 validations
  */

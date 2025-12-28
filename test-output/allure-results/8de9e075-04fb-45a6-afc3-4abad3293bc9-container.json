@@ -1,0 +1,1 @@
+{"uuid":"8de9e075-04fb-45a6-afc3-4abad3293bc9","name":"com.demoblaz.tests.e2e.GuestE2e","children":["68db16d9-64ba-4fa3-a7c2-cb60f7d97da6"],"befores":[{"name":"startUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1765572772644,"stop":1765572772710}],"afters":[],"start":1765572772523,"stop":1765572823266}
